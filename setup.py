@@ -1,6 +1,7 @@
+import codecs
 from setuptools import setup
 
-with open("README.md") as file:
+with codecs.open("README.md", "r", "utf-8") as file:
     read_me_description = file.read()
 
 
